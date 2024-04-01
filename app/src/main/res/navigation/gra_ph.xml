@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gra_ph"
+    app:startDestination="@id/home1">
+
+    <fragment
+        android:id="@+id/home1"
+        android:name="com.example.smartguangzhou.fragment.home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home1_to_serive"
+            app:destination="@id/serive" />
+        <action
+            android:id="@+id/action_home1_to_news"
+            app:destination="@id/news" />
+        <action
+            android:id="@+id/action_home1_to_personal"
+            app:destination="@id/personal" />
+        <action
+            android:id="@+id/action_home1_to_underground"
+            app:destination="@id/underground" />
+    </fragment>
+    <fragment
+        android:id="@+id/serive"
+        android:name="com.example.smartguangzhou.fragment.serive"
+        android:label="fragment_serive"
+        tools:layout="@layout/fragment_serive" />
+    <fragment
+        android:id="@+id/news"
+        android:name="com.example.smartguangzhou.fragment.news"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/personal"
+        android:name="com.example.smartguangzhou.fragment.personal"
+        android:label="fragment_personal"
+        tools:layout="@layout/fragment_personal" />
+    <fragment
+        android:id="@+id/underground"
+        android:name="com.example.smartguangzhou.fragment.underground"
+        android:label="fragment_underground"
+        tools:layout="@layout/fragment_underground" />
+</navigation>

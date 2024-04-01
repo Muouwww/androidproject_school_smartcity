@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_item1"
+        android:enabled="true"
+        android:icon="@drawable/s_home"
+        android:title="首页"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nav_item2"
+        android:enabled="true"
+        android:icon="@drawable/s_service"
+        android:title="全部服务"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nav_item3"
+        android:enabled="true"
+        android:icon="@drawable/underground_0"
+        android:title="城市地铁"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nav_item4"
+        android:enabled="true"
+        android:icon="@drawable/s_news"
+        android:title="新闻"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nav_item5"
+        android:enabled="true"
+        android:icon="@drawable/s_person"
+        android:title="个人中心"
+        tools:ignore="HardcodedText" />
+
+</menu>

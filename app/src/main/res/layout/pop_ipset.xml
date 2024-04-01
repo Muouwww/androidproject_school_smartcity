@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:padding="35dp"
+    android:background="#fff"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_height="300dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入服务器IP地址"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/pop_setip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IP地址"
+        android:inputType="text"/>
+
+    <CheckBox
+        android:id="@+id/pop_remip"
+        android:text="记住服务器IP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/pop_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>
